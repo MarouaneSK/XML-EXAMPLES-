@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="livres.xsl"?>
+<livres>
+<livre id="l1">
+    <titre> Technologies XML </titre>
+ 
+    <auteurs>
+        <auteur>
+            <nom> nafil </nom>
+            <prenom>khalid</prenom>
+            <genre>M</genre>
+            <nationalite>CAN</nationalite>
+        </auteur>
+    </auteurs>
+    <editeur>eyrolles</editeur>
+    <nbp>110</nbp>
+    <prix>119.5</prix>
+    <datePublication>2018-12-18</datePublication>
+</livre>
+<livre id="l2">
+    <titre> SCRUM </titre>
+    <auteurs>
+        <auteur>
+            <nom> zellou </nom>
+            <prenom>ahmed</prenom>
+            <genre>M</genre>
+            <nationalite>MAR</nationalite>
+        </auteur>
+        <auteur>
+            <nom> zemlo </nom>
+            <prenom>ahmed</prenom>
+            <genre>M</genre>
+            <nationalite>MAR</nationalite>
+        </auteur>
+    </auteurs>
+    <editeur>eyrolles</editeur>
+    <nbp>90</nbp>
+    <prix>115.5</prix>
+    <datePublication>2016-12-18</datePublication>
+</livre>
+</livres>

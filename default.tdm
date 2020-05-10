@@ -1,0 +1,82 @@
+[Diagram]
+Title=Default title
+Database=C:\Users\skour\Desktop\dataset_56_vote-1.arff
+
+[Dataset]
+MLClassGenerator=TMLGenDataset
+successors=2
+succ_1=Define status 1
+succ_2=View dataset 1
+
+[Define status 1]
+MLClassGenerator=TMLGenFSDefStatus
+target_count=1
+target_1=Class
+input_count=16
+input_1=handicapped-infants
+input_2=water-project-cost-sharing
+input_3=adoption-of-the-budget-resolution
+input_4=physician-fee-freeze
+input_5=el-salvador-aid
+input_6=religious-groups-in-schools
+input_7=anti-satellite-test-ban
+input_8=aid-to-nicaraguan-contras
+input_9=mx-missile
+input_10=immigration
+input_11=synfuels-corporation-cutback
+input_12=education-spending
+input_13=superfund-right-to-sue
+input_14=crime
+input_15=duty-free-exports
+input_16=export-administration-act-south-africa
+illus_count=0
+successors=2
+succ_1=Supervised Learning 2 (K-NN)
+succ_2=Supervised Learning 3 (ID3)
+
+[Supervised Learning 2 (K-NN)]
+MLClassGenerator=TMLGCompOneInstance
+embedded_spv=1
+embedded_section=Supervised Learning 2 (K-NN)--K-NN
+successors=1
+succ_1=Train-test 1
+
+[Supervised Learning 2 (K-NN)--K-NN]
+MLClassGenerator=TMLGCompKNN
+neighbors=1
+dist_normalization=1
+
+[Train-test 1]
+MLClassGenerator=TMLGenCompAssesTrainTest
+isSaveResults=0
+results_filename=C:\Program Files (x86)\Tanagra\experiments_results.txt
+train_proportion=0.699999988079071
+nb_repetitions=1
+successors=0
+
+[Supervised Learning 3 (ID3)]
+MLClassGenerator=TMLGCompOneInstance
+embedded_spv=1
+embedded_section=Supervised Learning 3 (ID3)--ID3
+successors=1
+succ_1=Train-test 2
+
+[Supervised Learning 3 (ID3)--ID3]
+MLClassGenerator=TMLGCompSpvTree
+SizeBeforeSplit=200
+SizeAfterSplit=50
+GoodnessThresold=0.03
+MaxDepth=7
+
+[Train-test 2]
+MLClassGenerator=TMLGenCompAssesTrainTest
+isSaveResults=0
+results_filename=C:\Program Files (x86)\Tanagra\experiments_results.txt
+train_proportion=0.699999988079071
+nb_repetitions=1
+successors=0
+
+[View dataset 1]
+MLClassGenerator=TMLGenCompViewData
+successors=0
+

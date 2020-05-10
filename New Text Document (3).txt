@@ -1,0 +1,15 @@
+<html>
+   <body>
+      <h1>Exercice 1</h1>
+      <table border="1">
+         <tr>
+            <td>Tous les titres: Technologies XML  SCRUM </td>
+            <td>Le titre de 2eme livre:  SCRUM </td>
+            <td>Le titre avant dernier:  Technologies XML </td>
+            <td>Titre elements après derniere position: </td>
+            <td>Titres et prix des livres: Technologies XML ,119.5 SCRUM ,115.5</td>
+            <td>Tous les auteurs: nafil khalid zellou ahmed</td>
+         </tr>
+      </table>
+   </body>
+</html>

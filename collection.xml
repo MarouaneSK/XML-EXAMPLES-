@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+  <serie nom="Lanfeust de Troy">
+    <tome numero="1">
+      <scenariste>Arleston</scenariste>
+      <dessinateur>Tarquin</dessinateur>
+      <titre>L&apos;ivoire du Magohamoth</titre>
+    </tome>
+    <tome numero="2">
+      <dessinateur>Tarquin</dessinateur>
+      <titre>Thanos l&apos;incongru</titre>
+    </tome>
+    <editeur nom="Soleil production"/>
+  </serie>
+  <serie nom="Calvin &amp; Hobbes">
+    <tome numero="1">
+      <titre>Adieu, monde cruel</titre>
+    </tome>
+  </serie>
+  <serie nom="Léonard">
+    <tome numero="23">
+      <scenariste>De groot</scenariste>
+      <dessinateur>Turk</dessinateur>
+      <titre>Poil au génie</titre>
+    </tome>
+    <editeur nom="Le lombard"/>
+  </serie>
+</collection>
